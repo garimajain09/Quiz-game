@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('quiz.css');
+        @import url('https://fonts.googleapis.com/css2?family=Cutive&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Playwrite+TZ+Guides&display=swap');
+    </style>
+</head>
+
+<body>
+    <h1>Quiz Game</h1>
+    <div class="main">
+        <div id="box">
+            <h2 id="quesBox"></h2>
+            <div class="row">
+                <input class="options" id="option1" type="radio" value="a" name="option" />
+                <label> Option 1</label>
+            </div>
+            <div class="row">
+                <input class="options" id="opiton2" type="radio" value="b" name="option" />
+                <label> Option 2</label>
+            </div>
+            <div class="row">
+                <input class="options" id="option3" type="radio" value="c" name="option" />
+                <label>Option 3</label>
+            </div>
+            <div class="row">
+                <input class="options" id="option4" type="radio" value="d" name="option" />
+                <label>Option 4</label>
+            </div>
+            <button class="btn" onClick="submitQuiz()">Submit</button>
+
+        </div>
+
+    </div>
+    <div></div>
+
+
+    <script src="quiz.js"></script>
+
+</body>
+
+</html>
