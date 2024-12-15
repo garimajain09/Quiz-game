@@ -140,10 +140,5 @@ const endQuiz=()=>{
     <h3>Thank you for playing the quiz !</h3>
     <h2 style='padding-top:5px'>${correct}/${total} are correct </h2>
     </div>`
-
-    if(correct==total){
-        document.getElementById('won').innerHTML=`<h3 style='color:#ff7979; text-align:center;margin-top:-200px;'>Congratulation! All answers are correct.</h3>`
-    }
-   
 }
 loadQues();
